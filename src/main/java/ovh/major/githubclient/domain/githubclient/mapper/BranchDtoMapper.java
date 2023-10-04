@@ -1,7 +1,7 @@
-package ovh.major.githubclient.domain.mapper;
+package ovh.major.githubclient.domain.githubclient.mapper;
 
-import ovh.major.githubclient.domain.dto.BranchDto;
-import ovh.major.githubclient.domain.dto.githubresponse.GithubResponseBranchDto;
+import ovh.major.githubclient.domain.githubclient.dto.BranchDto;
+import ovh.major.githubclient.domain.githubclient.dto.githubresponse.GithubResponseBranchDto;
 
 public class BranchDtoMapper {
 

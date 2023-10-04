@@ -1,4 +1,4 @@
-package ovh.major.githubclient.domain.dto.githubresponse;
+package ovh.major.githubclient.domain.githubclient.dto.githubresponse;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Builder;

@@ -1,12 +1,12 @@
-package ovh.major.githubclient.domain.error.handler;
+package ovh.major.githubclient.domain.githubclient.error.handler;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.bind.annotation.ResponseStatus;
-import ovh.major.githubclient.domain.error.CustomErrorResponse;
-import ovh.major.githubclient.domain.error.exception.UserNotFoundException;
+import ovh.major.githubclient.domain.githubclient.error.CustomErrorResponse;
+import ovh.major.githubclient.domain.githubclient.error.exception.UserNotFoundException;
 
 @ControllerAdvice
 class UserNotFoundErrorHandler {

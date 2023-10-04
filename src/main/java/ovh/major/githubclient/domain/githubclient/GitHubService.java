@@ -1,11 +1,11 @@
-package ovh.major.githubclient.domain;
+package ovh.major.githubclient.domain.githubclient;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
-import ovh.major.githubclient.domain.dto.BranchDto;
-import ovh.major.githubclient.domain.dto.RepoAndBranchesDto;
-import ovh.major.githubclient.domain.dto.githubresponse.GithubResponseRepoDto;
-import ovh.major.githubclient.domain.mapper.BranchDtoMapper;
+import ovh.major.githubclient.domain.githubclient.dto.BranchDto;
+import ovh.major.githubclient.domain.githubclient.dto.RepoAndBranchesDto;
+import ovh.major.githubclient.domain.githubclient.dto.githubresponse.GithubResponseRepoDto;
+import ovh.major.githubclient.domain.githubclient.mapper.BranchDtoMapper;
 
 import java.util.ArrayList;
 import java.util.List;

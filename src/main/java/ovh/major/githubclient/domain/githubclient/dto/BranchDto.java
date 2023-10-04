@@ -1,4 +1,4 @@
-package ovh.major.githubclient.domain.dto;
+package ovh.major.githubclient.domain.githubclient.dto;
 
 import lombok.Builder;
 
